@@ -6,7 +6,7 @@ namespace Balta.ContentContext
         public string Title { get; set; }
         public string Url { get; set; }
 
-        public Content(string Title, string Url)
+        public Content(string title, string url)
         {
             Id = Guid.NewGuid();
         }
