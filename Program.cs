@@ -6,7 +6,7 @@ namespace Balta
     {
         public static void Main(string[] args)
         {
-            var course = new Course("Title", "Url");
+            // var course = new Course("Title", "Url");
         }
     }
 }
