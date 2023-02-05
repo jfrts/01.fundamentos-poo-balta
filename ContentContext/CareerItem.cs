@@ -1,3 +1,5 @@
+using Balta.NotificationContext;
+
 namespace Balta.ContentContext
 {
     public class CareerItem : Base
@@ -11,7 +13,7 @@ namespace Balta.ContentContext
         {
             if (course == null)
             {
-                throw new System.ArgumentNullException("Course cannot be null.");
+                AddNotification(new Notification("Course", "Course cannot be null."));
             }
 
             Order = order;
